@@ -1,0 +1,64 @@
+{
+    "packages": [
+        {
+            "id": 1,
+            "name": "git",
+            "description": "Sistema de controle de versão distribuído.",
+            "installer-cmd": "sudo apt install -y git"
+        },
+        {
+            "id": 2,
+            "name": "gcc",
+            "description": "Compilador C/C++ do projeto GNU.",
+            "installer-cmd": "sudo apt install -y gcc"
+        },
+        {
+            "id": 3,
+            "name": "make",
+            "description": "Utilitário para automação de compilação.",
+            "installer-cmd": "sudo apt install -y make"
+        },
+        {
+            "id": 4,
+            "name": "gdb",
+            "description": "Debugger para programas C/C++.",
+            "installer-cmd": "sudo apt install -y gdb"
+        },
+        {
+            "id": 5,
+            "name": "valgrind",
+            "description": "Detector de memory leaks e erros de memória.",
+            "installer-cmd": "sudo apt install -y valgrind"
+        },
+        {
+            "id": 6,
+            "name": "curl",
+            "description": "Transferência de dados via URL pela linha de comando.",
+            "installer-cmd": "sudo apt install -y curl"
+        },
+        {
+            "id": 7,
+            "name": "vim",
+            "description": "Editor de texto modal no terminal.",
+            "installer-cmd": "sudo apt install -y vim"
+        },
+        {
+            "id": 8,
+            "name": "htop",
+            "description": "Monitor de processos interativo no terminal.",
+            "installer-cmd": "sudo apt install -y htop"
+        },
+        {
+            "id": 9,
+            "name": "python3",
+            "description": "Interpretador Python 3.",
+            "installer-cmd": "sudo apt install -y python3"
+        },
+        {
+            "id": 10,
+            "name": "docker",
+            "description": "Plataforma de containers.",
+            "installer-cmd": "sudo apt install -y docker.io"
+        }
+    ]
+}
