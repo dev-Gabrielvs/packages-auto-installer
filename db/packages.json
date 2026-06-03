@@ -82,7 +82,7 @@
             "id": 14,
             "name": "xwayland-satellite",
             "description": "Suporte a apps X11 no DriftWM (dependência opcional, mas recomendada).",
-            "installer-cmd": "$HOME/.cargo/bin/cargo install --locked xwayland-satellite"
+            "installer-cmd": "$HOME/.cargo/bin/cargo install --locked --git https://github.com/Supreeeme/xwayland-satellite"
         }
     ]
 }
