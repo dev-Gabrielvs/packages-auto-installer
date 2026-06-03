@@ -75,8 +75,8 @@
         {
             "id": 13,
             "name": "driftwm",
-            "description": "DriftWM: compositor Wayland de canvas infinito, focado em trackpad. Compilado do source.",
-            "installer-cmd": "git clone https://github.com/malbiruk/driftwm.git /tmp/driftwm && cd /tmp/driftwm && source \"$HOME/.cargo/env\" && make build && sudo make install"
+            "description": "DriftWM: compositor Wayland de canvas infinito. Compilado do source.",
+            "installer-cmd": "git clone https://github.com/malbiruk/driftwm.git /tmp/driftwm && $HOME/.cargo/bin/cargo build --release --manifest-path /tmp/driftwm/Cargo.toml && sudo make -C /tmp/driftwm install"
         },
         {
             "id": 14,
