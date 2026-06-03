@@ -82,7 +82,7 @@
             "id": 14,
             "name": "xwayland-satellite-deps",
             "description": "Dependências de sistema para compilar o xwayland-satellite.",
-            "installer-cmd": "sudo apt install -y libxcb-cursor-dev"
+            "installer-cmd": "sudo apt install -y libxcb-cursor-dev gcc-multilib"
         },
         {
             "id": 15,
