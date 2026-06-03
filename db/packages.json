@@ -59,6 +59,30 @@
             "name": "docker",
             "description": "Plataforma de containers.",
             "installer-cmd": "sudo apt install -y docker.io"
+        },
+        {
+            "id": 11,
+            "name": "driftwm-deps",
+            "description": "Dependências de sistema necessárias para compilar o DriftWM (compositor Wayland).",
+            "installer-cmd": "sudo apt install -y libseat-dev libdisplay-info-dev libinput-dev libudev-dev libgbm-dev libxkbcommon-dev libwayland-dev"
+        },
+        {
+            "id": 12,
+            "name": "rustup",
+            "description": "Instalador e gerenciador de versões do Rust (necessário Rust 1.88+ para o DriftWM; o apt do Ubuntu 24.04 instala versão antiga demais).",
+            "installer-cmd": "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y && source \"$HOME/.cargo/env\""
+        },
+        {
+            "id": 13,
+            "name": "driftwm",
+            "description": "DriftWM: compositor Wayland de canvas infinito, focado em trackpad. Compilado do source.",
+            "installer-cmd": "git clone https://github.com/malbiruk/driftwm.git /tmp/driftwm && cd /tmp/driftwm && source \"$HOME/.cargo/env\" && make build && sudo make install"
+        },
+        {
+            "id": 14,
+            "name": "xwayland-satellite",
+            "description": "Suporte a apps X11 no DriftWM (dependência opcional, mas recomendada).",
+            "installer-cmd": "source \"$HOME/.cargo/env\" && cargo install --locked xwayland-satellite"
         }
     ]
 }
