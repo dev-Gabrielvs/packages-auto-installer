@@ -80,6 +80,12 @@
         },
         {
             "id": 14,
+            "name": "xwayland-satellite-deps",
+            "description": "Dependências de sistema para compilar o xwayland-satellite.",
+            "installer-cmd": "sudo apt install -y libxcb-cursor-dev"
+        },
+        {
+            "id": 15,
             "name": "xwayland-satellite",
             "description": "Suporte a apps X11 no DriftWM (dependência opcional, mas recomendada).",
             "installer-cmd": "$HOME/.cargo/bin/cargo install --locked --git https://github.com/Supreeeme/xwayland-satellite"
