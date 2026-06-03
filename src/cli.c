@@ -20,6 +20,8 @@ int add_package_cli ();
 int update_package_cli ();
 int delete_package_cli ();
 
+// --------------------------------------------------- Função principal do CLI ---------------------------------------------------
+
 int cli_run (int argc, char *argv[]) {
     int option_index = 0;
     int c;
@@ -54,6 +56,8 @@ int cli_run (int argc, char *argv[]) {
 
     return 0;
 }
+
+// --------------------------------------------------- Helpers CLI ---------------------------------------------------
 
 int help_info () {
     printf("Usage: [options]\n");

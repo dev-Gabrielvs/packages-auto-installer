@@ -54,8 +54,7 @@ int run_installer(int verbose)
     }
 
     if (!verbose)
-        printf("Download dos pacotes foram concluídos com %d falhas e %d sucessos.\n",
-               failures, successes);
+        printf("Download dos pacotes foram concluídos com %d falhas e %d sucessos.\n", failures, successes);
 
     return 0;
 }
