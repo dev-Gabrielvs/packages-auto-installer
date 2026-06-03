@@ -64,7 +64,7 @@
             "id": 11,
             "name": "driftwm-deps",
             "description": "Dependências de sistema necessárias para compilar o DriftWM (compositor Wayland).",
-            "installer-cmd": "sudo apt install -y libseat-dev libdisplay-info-dev libinput-dev libudev-dev libgbm-dev libxkbcommon-dev libwayland-dev"
+            "installer-cmd": "sudo apt install -y libseat-dev libdisplay-info-dev libinput-dev libudev-dev libgbm-dev libxkbcommon-dev libwayland-dev libegl1 libegl-dev"
         },
         {
             "id": 12,
